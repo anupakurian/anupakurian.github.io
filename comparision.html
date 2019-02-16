@@ -48,34 +48,30 @@
         <!-- First Row with 3/4th space for summary and the remaining for the visualisations -->
         <div class="row" >
             <!-- First of two columns -->
-            <div class="col-md-8" style="background-color:white" >
-                <h1>Summary: Lattitude vs. X</h1><hr>
-                <img src = "resources/latVsTempPlot.gif" align = left>
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                    To accomplish this analysis; we first pulled at from the OpenweatherMap API to assemble a dataset on over 500 cities.
-                </p>
-                <p>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather va. latitude. Factors we looked 
-                    at included: Temperature, Cloudiness, wind speed, and humidity. This site provides the source data and visualisations created 
-                    as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
-                </p>    
+            <div class="col-md-12" style="background-color:white" >
+                <h1>Comparision: Lattitude vs. X</h1>
+                <hr>
             </div>
-
-            <div class="col-md-4" class="thumbnail" style="background-color: white">
-                 <h1>Visualization</h1>
+            
+            <div class="col-md-12" style="background-color:white" >
+                Click any plot to get an in-depth analysis
             </div>
-
-            <div class="col-md-2"  style="background-color: white">
-                <a href="cloudiness.html"><img class="img-responsive" src = "resources/latVsCloudinessPlot.gif" style="width: auto; height: 140px;"></a>
+            
+            <div class="col-md-6"  style="background-color: white">
+                <h3 align="center">vs. Cloudiness</h3>
+                <a href="cloudiness.html"><img class="img-responsive" src = "resources/latVsCloudinessPlot.gif" style="width: auto; height: auto;"></a>
             </div>   
-            <div class="col-md-2" class="thumbnail" style="background-color: white">
-                <a href="humidity.html"><img class="img-responsive" src = "resources/latVsHumidityPlot.gif" style="width: auto; height: 140px;"></a>
+            <div class="col-md-6" class="thumbnail" style="background-color: white">
+                <h3 align="center">vs. Humidity</h3>
+                <a href="humidity.html"><img class="img-responsive" src = "resources/latVsHumidityPlot.gif" style="width: auto; height: auto;"></a>
             </div>   
-            <div class="col-md-2" class="thumbnail" style="background-color: white">
-                <a href="temperature.html"><img class="img-responsive" src = "resources/latVsTempPlot.gif" style="width: auto; height: 140px;"></a>
+            <div class="col-md-6" class="thumbnail" style="background-color: white">
+                <h3 align="center">vs. Max Temperature</h3>
+                <a href="temperature.html"><img class="img-responsive" src = "resources/latVsTempPlot.gif" style="width: auto; height: auto;"></a>
             </div>
-            <div class="col-md-2" class="thumbnail" style="background-color: white">
-                <a href="windspeed.html"><img class="img-responsive" src = "resources/latVsWindSpeed.gif" style="width: auto; height: 140px;"></a>
+            <div class="col-md-6" class="thumbnail" style="background-color: white">
+                <h3 align="center">vs. Windspeed</h3>
+                <a href="windspeed.html"><img class="img-responsive" src = "resources/latVsWindSpeed.gif" style="width: auto; height: auto;"></a>
             </div>
         </div>
     </div>

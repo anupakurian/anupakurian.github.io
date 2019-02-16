@@ -1,0 +1,27 @@
+.box {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  background: #0BADA6;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+img {
+    width: auto;
+    height: auto;
+}
+h1 {
+  color: #0BADA6;
+  font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  color: #0BADA6;
+  font-family: "Times New Roman", Times, serif;
+}
+.icon-bar {
+  color: black;
+  border-color: black;
+  background-color: black;
+}
